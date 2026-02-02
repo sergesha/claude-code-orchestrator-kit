@@ -1,0 +1,22 @@
+{
+  "name": "orchestrator-kit",
+  "owner": {
+    "name": "sergesha"
+  },
+  "metadata": {
+    "description": "Claude Code Orchestrator Kit - AI agents, skills, and commands",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "orchestrator-kit",
+      "description": "Turn Claude Code into a production powerhouse with specialized agents, skills, and commands for bug fixing, security scanning, and dependency management.",
+      "source": "./",
+      "strict": false,
+      "agents": [".claude/agents"],
+      "skills": [".claude/skills"],
+      "commands": [".claude/commands"],
+      "mcpServers": "./.mcp.json"
+    }
+  ]
+}
