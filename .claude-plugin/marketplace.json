@@ -12,11 +12,12 @@
       "name": "orchestrator-kit",
       "description": "Turn Claude Code into a production powerhouse with specialized agents, skills, and commands for bug fixing, security scanning, and dependency management.",
       "source": "./",
-      "strict": false,
-      "agents": [".claude/agents"],
-      "skills": [".claude/skills"],
-      "commands": [".claude/commands"],
-      "mcpServers": "./.mcp.json"
+      "version": "1.0.0",
+      "agents": "./.claude/agents",
+      "skills": "./.claude/skills",
+      "commands": "./.claude/commands",
+      "mcpServers": "./.mcp.json",
+      "strict": false
     }
   ]
 }
